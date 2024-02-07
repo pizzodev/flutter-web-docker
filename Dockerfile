@@ -1,7 +1,7 @@
 # Pull git image
 FROM bitnami/git:2.43.0
 
-ARG FLUTTER_LOCAL_DIR=/usr/local/flutter
+ARG FLUTTER_LOCAL_DIR=/usr/local/flutter/
 ARG FLUTTER_VERSION=3.13.9
 
 # Install unzip dependency
